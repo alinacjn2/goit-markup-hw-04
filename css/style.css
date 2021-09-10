@@ -369,10 +369,14 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* --footer-- */
-.footer {
+.footer-adr {
   background-color: #2f303a;
 }
-.footer-flex {
+.footer {
+  padding: 60px 0;
+  display: flex;
+}
+.footer-contakt {
   display: flex;
   flex-direction: column;
 }
@@ -415,7 +419,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .footer-social-list {
